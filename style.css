@@ -1,0 +1,24 @@
+button{
+    border: 1px solid black; 
+    width: fit-content;
+
+}
+div.topButtons{
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+    
+}
+#GH{
+    display: inline-block;
+    width: fit-content;
+    height: 100%;
+}
+#LI{
+    display: inline-block;
+    width: fit-content;
+    height: 100%;
+}
+div.a{
+    font-size: x-large;
+}
