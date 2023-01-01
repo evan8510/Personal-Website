@@ -1,23 +1,30 @@
-button{
-    border: 1px solid black; 
+body{
+    background-color: black;
+}
+img{
     width: fit-content;
+    height: 143px;
+    border: 5px solid darkslategrey;
 
 }
 div.topButtons{
-    width: 100%;
+    background-color: black;
+    width:fit-content;
+    height: fit-content;
     white-space: nowrap;
     overflow-x: auto;
+    
+    padding: 0;
+    
     
 }
 #GH{
     display: inline-block;
-    width: fit-content;
-    height: 100%;
+    background: white;
 }
 #LI{
     display: inline-block;
-    width: fit-content;
-    height: 100%;
+    background: white;
 }
 div.a{
     font-size: x-large;

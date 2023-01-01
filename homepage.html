@@ -12,8 +12,8 @@
 <body>
   <script src="script.js"></script>
   <div class = "topButtons">
-    <button id = "GH">GitHub</button>
-    <button id = "LI">LinkedIn</button>
+    <img id = "GH" src = "GitHub-Logo.png" height="143" width="309"/>
+    <img id = "LI" src = "LinkedIn-Logo.png" height="143" width="309"/>
   </div>
   <div class="a">
     <pre id="output1">BIO</pre>
@@ -28,7 +28,10 @@
       lButton.addEventListener('click', () =>{
         window.location.href ='https://www.linkedin.com/in/evan-wauchope/';
       });
-
+      gitButton.addEventListener('mouseover', () =>onHover(gitButton));
+      gitButton.addEventListener('mouseout', () =>onRmv(gitButton));
+      lButton.addEventListener('mouseover', () =>onHover(lButton));
+      lButton.addEventListener('mouseout', () =>onRmv(lButton));
     </script>
     
 </body>
