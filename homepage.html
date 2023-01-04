@@ -14,14 +14,21 @@
   <div class = "cover">
     <h2>COVER PHOTO TO GO HERE</h2>
   </div>
-  <div class = "topButtons">
-    <img id = "GH" src = "GitHub-Logo.png"  width="309" height="143"/>
-    <img id = "LI" src = "LinkedIn-Logo.png" width="309" height="143"/>
+  <div class = "title">
+    <h1 id = "ttl">Evan Wauchope</h1>
+    <h2 id = "subTtl">Computer Science Student & Developer</h1>
   </div>
   <div class="info">
-    <img id = "pfp" src="pfp-22-12-29.jpg" height="200" width="200"/>
-    <h2>Evan Wauchope</h2>
-    <pre id="bio">BIO</pre>
+    <div class="blurb">
+      <img id = "pfp" src="pfp-22-12-29.jpg" height="300" width="300"/>
+      <h2 id = "name">Evan Wauchope</h2>
+      <pre id="bio">BIO</pre>
+    </div>
+    <div class = "links">
+      <img id = "GH" src = "GitHub-Logo.png"  width="309" height="143"/>
+      <img id = "LI" src = "LinkedIn-Logo.png" width="309" height="143"/>
+      <img id = "RE" src = "resume-img.png" width="309" height="143"/>
+    </div>
   </div>
     <script type="text/javascript">
 
@@ -29,14 +36,20 @@
       gitButton.addEventListener('click', () =>{
         window.location.href ='https://github.com/evan8510';
       });
+      gitButton.addEventListener('mouseover', () =>onHover(gitButton));
+      gitButton.addEventListener('mouseout', () =>onRmv(gitButton));
       const lButton = document.getElementById("LI");
       lButton.addEventListener('click', () =>{
         window.location.href ='https://www.linkedin.com/in/evan-wauchope/';
       });
-      gitButton.addEventListener('mouseover', () =>onHover(gitButton));
-      gitButton.addEventListener('mouseout', () =>onRmv(gitButton));
       lButton.addEventListener('mouseover', () =>onHover(lButton));
       lButton.addEventListener('mouseout', () =>onRmv(lButton));
+      const resButton = document.getElementById("RE");
+      resButton.addEventListener('click', () =>{
+        window.location.href ='https://docs.google.com/document/d/1FZY6dJDO-beCdfhnC_cuOwsR5cKYO_Jt/edit?usp=sharing&ouid=106045900153061304253&rtpof=true&sd=true';
+      });
+      resButton.addEventListener('mouseover', () =>onHover(resButton));
+      resButton.addEventListener('mouseout', () =>onRmv(resButton));
     </script>
     
 </body>
