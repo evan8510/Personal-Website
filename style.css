@@ -66,7 +66,7 @@ img{
 div.info{
     margin: auto;
     width: 70%;
-    height: 500px;
+    height: 480px;
     white-space: normal;
     background-color: #537eaf;
     border-bottom-left-radius: 25px;
@@ -79,15 +79,67 @@ div.info{
     padding: 10px;
 }
 div.blurb{
-    border-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
     float: left;
-    width: 65%;
+    width: 30%;
+    height: 90%;
     background-color: #DBE2EF;
     white-space: normal;
     color: #1B262C;
     font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid #1B262C;
+    border-bottom: 1px solid #1B262C;
+    border-top: 1px solid #1B262C;
+    border-left: 1px solid #1B262C;
     padding: 1%;
+}
+div.bio{
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    margin: auto;
+    float: left;
+    width: 35%;
+    height: 90%;
+    background-color: #DBE2EF;
+    white-space: normal;
+    color: #1B262C;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid #1B262C;
+    border-top: 1px solid #1B262C;
+    border-right: 1px solid #1B262C;
+    padding: 1%;
+}
+div.question{
+    border-top-left-radius: 15px;
+    margin: auto;
+    padding-left: 3px;
+    float: left;
+    width: 38%;
+    height: 30%;
+    text-align: left;
+    background-color: #ffffff;
+}
+div.answer{
+    border-top-right-radius: 15px;
+    margin: auto;
+    padding-right: 3px;
+    float: left;
+    width: 60%;
+    height: 30%;
+    text-align: right;
+    background-color: #ffffff;
+}
+div.about{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin: auto;
+    padding-left: 3px;
+    padding-right: 3px;
+    float: left;
+    width: 98%;
+    height: 70%;
+    text-align: left;
+    background-color: #ffffff;
 }
 div.links{
     float: right;
@@ -99,8 +151,10 @@ div.links{
     white-space: normal;
     
 }
+#program{
+    width: 200px;
+}
 #name{
-    border: 3px solid #1B262C;
     text-align: center;
     background-color: #DBE2EF;
     width: 200px;
@@ -127,7 +181,6 @@ div.links{
 }
 #pfp{
     margin-top: 2%;
-    margin-bottom: 1%;
-    height: 300px;
-    width: 300px;
+    height: 70%;
+    width: auto;
 }
